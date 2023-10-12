@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import NewMeetupForm from "../../components/meetups/NewMeetupForm";
-
+import Head from "next/head";
 const NewMeetUpPage = () => {
   const route = useRouter();
   const handlerSubmit = async (value) => {
